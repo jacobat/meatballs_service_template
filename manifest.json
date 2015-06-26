@@ -1,0 +1,9 @@
+{
+  "roles": {
+    "server": {
+      "ports": {
+        "web": { "public_port": "4993", "check": "/ping", "service_name": "web" }
+      }
+    }
+  }
+}
